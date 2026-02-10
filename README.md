@@ -26,6 +26,21 @@ An interactive web-based calculator for Barony game potion combinations.
 
 Deployed via Github Pages
 
+## Local Usage (Offline)
+
+To run this calculator locally on your computer:
+
+1. **Download the files:**
+   - Download or clone this repository
+   - Extract to any folder on your computer
+
+2. **Open the application:**
+   - Navigate to the folder containing the files
+   - Double-click on `index.html`
+   - The calculator will open in your default web browser
+
+**Note:** Some browsers may show security warnings for local file access. If you encounter issues, try using a simple local server or a different browser.
+
 ## Technologies Used
 
 - HTML5
