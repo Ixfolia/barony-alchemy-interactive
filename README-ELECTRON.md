@@ -27,9 +27,9 @@
    npm run build-win
    ```
 
-4. **Find your executable:**
+4. **Exe file location:**
 
-   - The built `.exe` file will be in the `dist` folder
+   - The built `.exe` file will be in folders `dist` > `win-unpacked`
    - Look for `Barony Alchemy Calculator Setup X.X.X.exe`
 
 ### Optional: Add Custom Icon

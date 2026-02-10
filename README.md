@@ -55,9 +55,9 @@ You can build this calculator as a standalone desktop application for offline us
    npm run build-win
    ```
 
-4. **Find your executable:**
+4. **Finding exe file:**
 
-   - The built `.exe` file will be in the `dist` folder
+   - The built `.exe` file will be in folders `dist` > `win-unpacked`
    - Look for `Barony Alchemy Calculator Setup X.X.X.exe`
 
 #### Optional: Add Custom Icon
@@ -77,7 +77,7 @@ You can build this calculator as a standalone desktop application for offline us
 - HTML5
 - CSS3 with custom properties
 - Vanilla JavaScript
-- VT323 font (retro gaming aesthetic)
+- VT323 font (for retro gaming aesthetic)
 
 ## Assets
 
