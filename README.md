@@ -22,7 +22,55 @@ An interactive web-based calculator for Barony game potion combinations.
 
 ## Deployment
 
+### Web Version
+
 Deployed via Github Pages
+
+### Desktop Application (Electron)
+
+You can build this calculator as a standalone desktop application for offline use.
+
+#### Prerequisites
+
+1. Install Node.js from [https://nodejs.org/](https://nodejs.org/) (LTS version recommended)
+2. Open Command Prompt or PowerShell in this directory
+
+#### Build Steps
+
+1. **Install dependencies:**
+
+   ```bash
+   npm install
+   ```
+
+2. **Test the app (development):**
+
+   ```bash
+   npm start
+   ```
+
+3. **Build Windows executable:**
+
+   ```bash
+   npm run build-win
+   ```
+
+4. **Find your executable:**
+
+   - The built `.exe` file will be in the `dist` folder
+   - Look for `Barony Alchemy Calculator Setup X.X.X.exe`
+
+#### Optional: Add Custom Icon
+
+- Add an `icon.ico` file to this directory
+- Recommended size: 256x256 pixels
+- The builder will automatically use it if present
+
+#### Troubleshooting
+
+- If build fails, try: `npm install --force`
+- For antivirus warnings: These are common for Electron apps
+- The app works completely offline once built
 
 ## Technologies Used
 
