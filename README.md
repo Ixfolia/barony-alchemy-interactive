@@ -25,6 +25,7 @@ An interactive web-based calculator for Barony game potion combinations.
 ### Web Version
 
 Deployed via Github Pages
+https://ixfolia.github.io/barony-alchemy-interactive/
 
 ### Desktop Application (Electron)
 
