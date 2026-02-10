@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barony Alchemy Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="main-container">
+        <h1>ALCHEMY STATION</h1>
+        
+        <div class="split-container">
+            <!-- Left side: Calculator -->
+            <div class="calculator-section">
+                <div class="container">
+                    <div class="calculator">
+                        
+                        <div class="column">
+                            <h2>1. Base</h2>
+                            <div class="grid-selector" id="base-grid">
+                                </div>
+                            <div class="selected-display" id="selected-base-name">Select Base</div>
+                        </div>
+
+                        <div class="plus-sign">+</div>
+
+                        <div class="column">
+                            <h2>2. Secondary</h2>
+                            <div class="grid-selector" id="secondary-grid">
+                                </div>
+                            <div class="selected-display" id="selected-secondary-name">Select Secondary</div>
+                        </div>
+                    </div>
+
+                    <div class="result-box">
+                        <h2>RESULT</h2>
+                        <div id="result-icon" class="result-placeholder">?</div>
+                        <h3 id="result-name">...</h3>
+                    </div>
+
+                    <div class="rules-legend">
+                        <p><strong>SPECIAL RULES:</strong></p>
+                        <p>Water + Any Ingredient = <span style="color:#66d9ef">Duplicate (Same as Secondary)</span></p>
+                        <p>Polymorph + Any Ingredient = <span style="color:#f92672">Random Result</span></p>
+                        <p>Secondary + Secondary = <span style="color:#d9a066">Sickness (Green Skull)</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right side: Spreadsheet -->
+            <div class="spreadsheet-section">
+                <div class="container">
+                    <h2>REFERENCE SPREADSHEET</h2>
+                    <div class="spreadsheet-container">
+                        <img src="Barony Potions PNG/barony_spreadsheet.png" alt="Barony Alchemy Spreadsheet" class="spreadsheet-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+{
+  "name": "barony-alchemy-calculator",
+  "version": "1.0.0",
+  "description": "Interactive Barony game potion combination calculator",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build-win": "electron-builder --win",
+    "build-all": "electron-builder --win --x64 --ia32"
+  },
+  "keywords": ["barony", "alchemy", "calculator", "game"],
+  "author": "Barony Alchemy Calculator",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "electron-builder": "^24.9.1"
+  },
+  "build": {
+    "appId": "com.barony.alchemy-calculator",
+    "productName": "Barony Alchemy Calculator",
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": "nsis",
+      "icon": "icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true
+    },
+    "files": [
+      "index.html",
+      "style.css",
+      "script.js",
+      "Barony Potions PNG/**/*",
+      "node_modules/**/*"
+    ]
+  }
+}
