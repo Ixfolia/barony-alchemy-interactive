@@ -32,6 +32,7 @@
       "createStartMenuShortcut": true
     },
     "files": [
+      "main.js",
       "index.html",
       "style.css",
       "script.js",
