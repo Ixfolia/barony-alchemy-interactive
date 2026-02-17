@@ -41,12 +41,6 @@ To run this calculator locally on your computer:
 
 **Note:** Some browsers may show security warnings for local file access. If you encounter issues, try using a simple local server or a different browser.
 
-## Technologies Used
-
-- HTML5
-- CSS3 with custom properties
-- Vanilla JavaScript
-- VT323 font (for retro gaming aesthetic)
 
 ## Assets
 
